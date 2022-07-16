@@ -3,10 +3,31 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable-v24/s_image_black.xml" value="0.137" />
+        <entry key="app/src/main/res/drawable-v24/selector.xml" value="0.137" />
         <entry key="app/src/main/res/drawable/backgradient.xml" value="0.137" />
+        <entry key="app/src/main/res/drawable/backgradient2.xml" value="0.137" />
+        <entry key="app/src/main/res/drawable/ic_arrow_down.xml" value="0.137" />
+        <entry key="app/src/main/res/drawable/ic_helper.xml" value="0.137" />
+        <entry key="app/src/main/res/drawable/icon_settings.xml" value="0.137" />
+        <entry key="app/src/main/res/drawable/is_person.xml" value="0.137" />
+        <entry key="app/src/main/res/drawable/progress_bar.xml" value="0.137" />
         <entry key="app/src/main/res/drawable/round_button.xml" value="0.137" />
-        <entry key="app/src/main/res/layout/activity_join.xml" value="0.2719885563504869" />
+        <entry key="app/src/main/res/drawable/round_button2.xml" value="0.137" />
+        <entry key="app/src/main/res/drawable/round_button3.xml" value="0.137" />
+        <entry key="app/src/main/res/drawable/round_button_on_click.xml" value="0.137" />
+        <entry key="app/src/main/res/layout/activity_checking.xml" value="0.18026428222656252" />
+        <entry key="app/src/main/res/layout/activity_connect_wallet.xml" value="0.1986059879911119" />
+        <entry key="app/src/main/res/layout/activity_join.xml" value="0.21796264648437497" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.24590911865234383" />
+        <entry key="app/src/main/res/layout/activity_profile.xml" value="0.13068237304687502" />
+        <entry key="app/src/main/res/layout/activity_qractivity.xml" value="0.13660230134662832" />
+        <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.20093892415364584" />
+        <entry key="app/src/main/res/layout/activity_transfer.xml" value="0.1901168823242186" />
+        <entry key="app/src/main/res/layout/fragment_recieve.xml" value="0.42213134765625004" />
+        <entry key="app/src/main/res/layout/fragment_review.xml" value="0.5025634765625" />
+        <entry key="app/src/main/res/menu/menu_navigation.xml" value="0.18552631578947368" />
+        <entry key="app/src/main/res/menu/topmenu_navigation.xml" value="0.18552631578947368" />
       </map>
     </option>
   </component>

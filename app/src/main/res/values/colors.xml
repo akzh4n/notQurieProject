@@ -10,4 +10,6 @@
     <color name="BlueNeed">#050084</color>
     <color name="BlackNeed">#000000</color>
     <color name="TypeofGrey">#141E30</color>
+    <color name="OrangeNeed">#FF6922</color>
+    <color name="SkyNeed">#6347F5</color>
 </resources>

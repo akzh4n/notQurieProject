@@ -5,12 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/backgradient"
-    tools:context=".JoinActivity">
+    tools:context=".ConnectWalletActivity">
 
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/BaseCard"
         android:layout_width="350dp"
-        android:layout_height="550dp"
+        android:layout_height="500dp"
         android:layout_centerInParent="true"
         android:elevation="50dp"
         app:cardBackgroundColor="@color/TypeofGrey"
@@ -19,17 +20,17 @@
         <View
             android:id="@+id/view"
             android:layout_width="300dp"
-            android:layout_height="200dp"
-            android:layout_marginStart="27.5dp"
+            android:layout_height="250dp"
+            android:layout_marginStart="25dp"
             android:layout_marginTop="120dp"
-            android:background="@drawable/round_button3" />
+            android:background="@drawable/round_button2" />
 
         <androidx.cardview.widget.CardView
             android:id="@+id/card1"
             android:layout_width="110dp"
             android:layout_height="70dp"
             android:layout_marginStart="50dp"
-            android:layout_marginTop="140dp"
+            android:layout_marginTop="150dp"
             app:cardBackgroundColor="@color/white"
             app:cardCornerRadius="20dp">
 
@@ -44,8 +45,8 @@
             android:id="@+id/card2"
             android:layout_width="110dp"
             android:layout_height="70dp"
-            android:layout_marginStart="195dp"
-            android:layout_marginTop="140dp"
+            android:layout_marginStart="192.5dp"
+            android:layout_marginTop="150dp"
             app:cardBackgroundColor="@color/white"
             app:cardCornerRadius="20dp">
 
@@ -62,8 +63,8 @@
             android:id="@+id/card3"
             android:layout_width="110dp"
             android:layout_height="70dp"
-            android:layout_marginStart="195dp"
-            android:layout_marginTop="230dp"
+            android:layout_marginStart="192.5dp"
+            android:layout_marginTop="260dp"
             app:cardBackgroundColor="@color/white"
             app:cardCornerRadius="20dp">
 
@@ -80,8 +81,8 @@
             android:id="@+id/card4"
             android:layout_width="110dp"
             android:layout_height="70dp"
-            android:layout_marginStart="50dp"
-            android:layout_marginTop="230dp"
+            android:layout_marginStart="47.5dp"
+            android:layout_marginTop="260dp"
             app:cardBackgroundColor="@color/white"
             app:cardCornerRadius="20dp">
 
@@ -98,43 +99,29 @@
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="70dp"
+            android:layout_marginLeft="77.5dp"
             android:layout_marginTop="40dp"
             android:fontFamily="@font/athiti"
-            android:text="Connect your wallet"
+            android:text="Choose your wallet"
             android:textColor="@color/white"
             android:textSize="25dp"
             android:textStyle="bold" />
 
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="280dp"
-            android:layout_height="80dp"
-            android:layout_marginLeft="37.5dp"
-            android:layout_marginTop="350dp"
-            android:background="@drawable/round_button2"
-            android:fontFamily="@font/athiti"
-            android:paddingLeft="15dp"
-            android:paddingTop="10dp"
-            android:text="You must connect one of the partner wallets to work with this application. The data will be protected."
-            android:textColor="@color/white"
-            android:textSize="13dp"
-            android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/okBtn"
-            android:layout_width="250dp"
-            android:layout_height="50dp"
-            android:layout_marginLeft="52.5dp"
-            android:layout_marginTop="470dp"
-            android:background="@drawable/round_button"
-            android:fontFamily="@font/athiti"
-            android:padding="10dp"
-            android:paddingStart="112.5dp"
-            android:text="OK"
-            android:textColor="@color/white"
-            android:textSize="18dp"
-            android:textStyle="bold" />
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="false"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="400dp"
+            android:indeterminate="true"
+            android:indeterminateBehavior="repeat"
+            android:indeterminateDrawable="@drawable/progress_bar"
+            android:indeterminateDuration="10000"
+            android:progressBackgroundTint="@color/white"
+            android:visibility="invisible" />
 
     </androidx.cardview.widget.CardView>
+
 </RelativeLayout>

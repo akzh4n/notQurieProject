@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgradient2"
+    tools:context=".ProfileActivity">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/balanceCard"
+        android:layout_width="365dp"
+        android:layout_height="200dp"
+        android:layout_above="@id/portfelCard"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="false"
+        android:layout_marginTop="10dp"
+        app:cardElevation="50dp"
+        app:cardBackgroundColor="@color/TypeofGrey"
+        app:cardCornerRadius="20dp">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            app:srcCompat="@drawable/metamask_icon" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="315dp"
+            android:layout_marginTop="15dp"
+            app:srcCompat="@drawable/icon_settings" />
+
+        <TextView
+            android:id="@+id/sumOfBalance2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="107.5dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/athiti"
+            android:text="#0x5t6*****34h07"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/sumOfBalance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="130dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/athiti"
+            android:text="0.949 (ETH)"
+            android:textColor="@color/white"
+            android:textSize="21dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="85dp"
+            android:fontFamily="@font/athiti"
+            android:text="1329.71 $"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="16dp" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/portfelCard"
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:layout_above="@+id/bottom_navigation"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        app:cardBackgroundColor="@color/TypeofGrey"
+        app:cardElevation="50dp"
+        app:cardCornerRadius="20dp">
+
+        <FrameLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="490dp"
+            android:layout_marginTop="56dp"
+            android:background="@color/TypeofGrey">
+
+        </FrameLayout>
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_navtop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/BlackNeed"
+            app:itemBackground="@color/BlackNeed"
+            app:itemIconSize="24dp"
+            app:itemPaddingBottom="20dp"
+            app:itemTextColor="@drawable/selector"
+            app:layout_constraintTop_toTopOf="parent"
+            app:menu="@menu/topmenu_navigation" />
+    </androidx.cardview.widget.CardView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:itemBackground="@color/BlackNeed"
+        app:itemIconTint="@drawable/selector"
+        app:itemTextColor="@drawable/selector"
+        app:menu="@menu/menu_navigation" />
+
+</RelativeLayout>

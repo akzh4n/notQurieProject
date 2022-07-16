@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/TypeofGrey"
+    tools:context=".RecieveFragment" >
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card4"
+        android:layout_width="370dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="370dp"
+        app:cardBackgroundColor="@color/BlackNeed"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="50dp">
+
+        <TextView
+            android:id="@+id/rec4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/athiti"
+            android:text="Recieved from:"
+            android:textColor="@color/white"
+            android:textSize="11dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/token4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/athiti"
+            android:text="#0xMn5*****0510a"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="11dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/users4"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="12.5dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ic_helper" />
+
+        <View
+            android:id="@+id/underview4"
+            android:layout_width="270dp"
+            android:layout_height="0.5dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="45dp"
+            android:background="@color/white" />
+
+        <TextView
+            android:id="@+id/amount4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="55dp"
+            android:fontFamily="@font/athiti"
+            android:text="Amount of values:"
+            android:textColor="@color/white"
+            android:textSize="11dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/value4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="165dp"
+            android:layout_marginTop="55dp"
+            android:fontFamily="@font/athiti"
+            android:text="5.5 POL"
+            android:textColor="@color/SkyNeed"
+            android:textSize="11dp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/topview4"
+            android:layout_width="270dp"
+            android:layout_height="0.5dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="75dp"
+            android:background="@color/white" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card3"
+        android:layout_width="370dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="260dp"
+        app:cardBackgroundColor="@color/BlackNeed"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="50dp">
+
+        <TextView
+            android:id="@+id/rec3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/athiti"
+            android:text="Recieved from:"
+            android:textColor="@color/white"
+            android:textSize="11dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/token3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/athiti"
+            android:text="#0xSm6*****48d98"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="11dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/users3"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="12.5dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ic_helper" />
+
+        <View
+            android:id="@+id/underview3"
+            android:layout_width="270dp"
+            android:layout_height="0.5dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="45dp"
+            android:background="@color/white" />
+
+        <TextView
+            android:id="@+id/amount3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="55dp"
+            android:fontFamily="@font/athiti"
+            android:text="Amount of values:"
+            android:textColor="@color/white"
+            android:textSize="11dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/value3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="165dp"
+            android:layout_marginTop="55dp"
+            android:fontFamily="@font/athiti"
+            android:text="1.05 SOL"
+            android:textColor="@color/SkyNeed"
+            android:textSize="11dp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/topview3"
+            android:layout_width="270dp"
+            android:layout_height="0.5dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="75dp"
+            android:background="@color/white" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card2"
+        android:layout_width="370dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        app:cardBackgroundColor="@color/BlackNeed"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="50dp">
+
+        <TextView
+            android:id="@+id/rec2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/athiti"
+            android:text="Recieved from:"
+            android:textColor="@color/white"
+            android:textSize="11dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/token2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/athiti"
+            android:text="#0x1g3*****30s45"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="11dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/users2"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="12.5dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ic_helper" />
+
+        <View
+            android:id="@+id/underview2"
+            android:layout_width="270dp"
+            android:layout_height="0.5dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="45dp"
+            android:background="@color/white" />
+
+        <TextView
+            android:id="@+id/amount2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="55dp"
+            android:fontFamily="@font/athiti"
+            android:text="Amount of values:"
+            android:textColor="@color/white"
+            android:textSize="11dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/value2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="165dp"
+            android:layout_marginTop="55dp"
+            android:fontFamily="@font/athiti"
+            android:text="0.02 BTC"
+            android:textColor="@color/SkyNeed"
+            android:textSize="11dp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/topview2"
+            android:layout_width="270dp"
+            android:layout_height="0.5dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="75dp"
+            android:background="@color/white" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card1"
+        android:layout_width="370dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        app:cardBackgroundColor="@color/BlackNeed"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="50dp">
+
+        <TextView
+            android:id="@+id/rec1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/athiti"
+            android:text="Recieved from:"
+            android:textColor="@color/white"
+            android:textSize="11dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/token1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/athiti"
+            android:text="#0x4d6*****25b34"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="11dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/users1"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="12.5dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ic_helper" />
+
+        <View
+            android:id="@+id/underview1"
+            android:layout_width="270dp"
+            android:layout_height="0.5dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="45dp"
+            android:background="@color/white" />
+
+        <TextView
+            android:id="@+id/amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="55dp"
+            android:fontFamily="@font/athiti"
+            android:text="Amount of values:"
+            android:textColor="@color/white"
+            android:textSize="11dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/value1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="165dp"
+            android:layout_marginTop="55dp"
+            android:fontFamily="@font/athiti"
+            android:text="0.0034 ETH"
+            android:textColor="@color/SkyNeed"
+            android:textSize="11dp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/topview1"
+            android:layout_width="270dp"
+            android:layout_height="0.5dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="75dp"
+            android:background="@color/white" />
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

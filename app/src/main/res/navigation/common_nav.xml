@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/common_nav.xml"
+    app:startDestination="@id/profilePage">
+
+    <activity
+        android:id="@+id/profilePage"
+        android:name="com.example.qurieproject.ProfileActivity"
+        android:label="ProfileActivity" />
+    <activity
+        android:id="@+id/qrPage"
+        android:name="com.example.qurieproject.QRActivity"
+        android:label="QRActivity" />
+    <activity
+        android:id="@+id/transferActivity"
+        android:name="com.example.qurieproject.TransferActivity"
+        android:label="TransferActivity" />
+</navigation>
