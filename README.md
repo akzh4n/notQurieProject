@@ -8,7 +8,7 @@ BY: KALIMATOV AKZHAN
 
 
 
-# Splash Screen, Main Page
+## Splash Screen, Main Page
 
 
 <p align="center">
@@ -21,7 +21,7 @@ In this window, the user gives their full consent to the processing of their own
 
 
 
-# Info, Secret Phrase Auth
+## Info, Secret Phrase Auth
 
 <p align="center">
   <img src="https://github.com/manste1n/notQurieProject/blob/master/assets/3.png" width="200" title="Info">
@@ -40,7 +40,7 @@ After selecting a cryptocurrency wallet to connect, the user must type the secre
 
 
 
-# Profile, QR, Transfer Pages
+## Profile, QR, Transfer Pages
 
 
 * Profile
@@ -77,6 +77,6 @@ The translation page is also the main aspect, it is not new but it will be user-
 </p>
 
 
+&nbsp; 
 
-
-# Follow me! :ok_hand:
+# Follow me! 💙
