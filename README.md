@@ -79,4 +79,4 @@ The translation page is also the main aspect, it is not new but it will be user-
 
 &nbsp; 
 
-# Follow me! 💙
+Follow me! 💙
